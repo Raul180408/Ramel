@@ -1,0 +1,17 @@
+.sidebar {
+            height: 100vh;
+            background-color:#ffc1ea;
+            color: #c35732 !important;
+        }
+.h{
+    color: #c35732 !important;
+    :hover {
+            color: white !important;
+            background-color: #f47283;
+            border-radius: 6px;
+        }
+}
+
+body {
+    background-color: #f7e7f1;
+}
