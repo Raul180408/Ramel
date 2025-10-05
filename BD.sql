@@ -7,7 +7,8 @@ CREATE TABLE produtos (
     preco DECIMAL(10,2) NOT NULL,
     custo DECIMAL(10,2) NOT NULL,
     quantidade INT NOT NULL,
-    categoria VARCHAR(50) DEFAULT 'variados'
+    categoria VARCHAR(50) DEFAULT 'Variados',
+    imagem longblob
 );
 
 CREATE TABLE vendas (
